@@ -4,7 +4,7 @@ void main(List<String> args) {
   int? number1 = null;
   int number2;
 
-  //number2 ??= number1;
+  number2 = number1!;
 
   if (number1 != null) {
     print(number1);
