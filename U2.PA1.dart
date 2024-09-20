@@ -54,7 +54,7 @@ exercise4() {
     fin = true;
     return;
   }
-  int i = texto!.length - 1;
+  int i = texto.length - 1;
   do {
     print(texto[i]);
     i--;

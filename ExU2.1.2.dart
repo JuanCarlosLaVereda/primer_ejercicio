@@ -22,8 +22,6 @@ void main(List<String> args) {
 
   String? greeting;
 
-  print(greeting?.length);
-
   String? info;
   print("Give me a number");
   info = stdin.readLineSync();
